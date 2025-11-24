@@ -31,16 +31,4 @@
 
 if (guest) {
   document.getElementById('guestName').textContent = guest;
-
-}
-
-function getQuery(param) {
-  const params = new URLSearchParams(window.location.search);
-  return params.get(param);
-}
-
-const guest = getQuery("nama");
-
-if (guest) {
-  document.getElementById("guestName").textContent = guest;
 }

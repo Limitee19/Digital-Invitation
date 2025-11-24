@@ -1,0 +1,165 @@
+ 
+  html {
+    scroll-behavior:smooth;
+  }
+    .nav-link {
+      font-family: 'Itim', cursive;
+    }
+    .nav-link:hover {
+      color: #6c757d !important;
+    }
+
+    .item {
+      font-size: 20px;
+    }
+    .pengantin {
+      font-family: 'Economica', cursive;
+      color: #464545;
+      font-size: 10rem;
+    }
+
+    .cewe {
+      font-family: 'Italianno', cursive;
+    }
+    .cowo {
+      font-family: 'Italianno', cursive;
+    }
+    .cewe1 {
+      font-family: 'Economica', cursive;
+    }
+    .cowo1 {
+      font-family: 'Economica', cursive;
+    }
+    .surat {
+      font-family: 'Economica', cursive;
+      font-size: 5rem;
+    }
+    .ayat {
+      font-family: 'Economica', cursive;
+    }
+
+    .kuning {
+      background-color: #D4C362;
+      color: white;
+    }
+    .akad {
+       font-family: 'Italianno', cursive;
+       font-size: 5rem;
+    }
+
+    .resep {
+      font-family: 'Italianno', cursive;
+       font-size: 5rem;
+      
+    }
+    .jadwal {
+      font-family: 'Economica', cursive;
+       font-size: 20px;
+
+    }
+    .jadwal1 {
+      font-family: 'Economica', cursive;
+       font-size: 20px;
+    }
+    .gift1 {
+      font-family: 'Economica', cursive;
+      font-size: 20px;
+    }
+
+    .parallax {
+  background-image: url('assets/foto1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+}
+    .gift {
+      font-family: 'Italianno', cursive;
+      color: rgb(204, 192, 20);
+      font-size: 3rem;
+    }
+
+    .penutup {
+      font-family: 'Economica', cursive;
+      color:rgb(204, 192, 20) ;
+      font-size: 40px;
+    }
+    .penutup1 {
+      font-family: 'Economica', cursive;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .penutup2 {
+      font-family: 'Economica', cursive;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+   .custom-navbar {
+  padding: 0.8rem 1rem;
+  z-index: 1000;
+  background-color: rgba(255, 255, 240, 0.7);
+  backdrop-filter: blur(6px);
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 767.98px) {
+  .custom-navbar {
+    background-color: rgba(255, 255, 240, 0.7); 
+    backdrop-filter: blur(6px);
+  }
+
+  .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    backdrop-filter: blur(8px);
+  }
+
+  .custom-navbar .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-navbar {
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+  }
+  .navbar-collapse {
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+    padding: 0 !important;
+    margin-top: 0 !important;
+  }
+}
+
+
+  .navbar-nav {
+    margin: auto;
+  }
+
+
+
+  .custom-navbar .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+  }
+
+  .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    backdrop-filter: blur(8px);
+  }
+
+
+  body.no-scroll {
+  overflow: hidden;
+  touch-action: none;
+}
+
